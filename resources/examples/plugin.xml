@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin version="1.0">
+	<id>org.craftercms.blueprint.example</id>
+	<type>blueprint</type>
+	<name>Example Blueprint</name>
+	<version>1.0.0</version>
+	<description>Simple example blueprint</description>
+
+	<tags>
+		<tag>blueprint</tag>
+		<tag>example</tag>
+	</tags>
+
+	<website>
+		<name>Example Blueprint</name>
+		<url>https://craftercms.org/blueprints/example/</url>
+	</website>
+
+	<media>
+		<screenshots>
+			<screenshot>
+				<title>Home Page</title>
+				<description>Screenshot of the homepage</description>
+				<url>/resources/screenshots/home.png</url> <!-- Can be http:// or relative URL -->
+			</screenshot>
+		<screenshots>
+		<videos>
+			<video>
+				<title />
+				<description />
+				<url />
+			</video>
+		</videos>
+	</media>
+
+	<organization>
+		<name>Crafter Software</name>
+		<url>http://www.craftersoftware.com/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>jdoe</id>
+			<name>John Doe</name>
+			<email>jdoe@example.com</email>
+			<url>http://www.example.com/jdoe</url>
+			<organization>ACME</organization>
+			<organizationUrl>http://www.example.com</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>America/New_York</timezone>
+			<properties>
+				<picUrl>http://www.example.com/jdoe/pic</picUrl>
+			</properties>
+		</developer>
+	</developers>
+
+	<contributors>
+		<contributor>
+			<name>Noelle</name>
+			<email>some.name@gmail.com</email>
+			<url>http://noellemarie.com</url>
+			<organization>Noelle Marie</organization>
+			<organizationUrl>http://noellemarie.com</organizationUrl>
+			<roles>
+				<role>tester</role>
+			</roles>
+			<timezone>America/Vancouver</timezone>
+			<properties>
+				<gtalk>some.name@gmail.com</gtalk>
+			</properties>
+		</contributor>
+	</contributors>
+
+	<build>
+			<date>2017-05-09T00:00:00Z</date>
+			<number>8b470db42b85167cf3b15eac0d9b1eca80aa1988</number>
+	</build>
+
+	<license>
+		<name>MIT</name>
+		<url>https://opensource.org/licenses/MIT</url> <!-- Can be http:// or relative URL -->
+	<license>
+
+	<price>
+		<paid /> <!-- boolean, if not then it's free -->
+		<cost-structure /> <!-- text field describing the cost structure -->
+	</price>
+
+	<crafter-versions-supported>
+		<ranges>
+			<range>
+				<min>3.0.0</min>
+				<max>3.1.0</max> <!-- Optional -->
+			<range>
+			<range>
+				<min>4.0.0</min>
+				<max>4.0.0</max> <!-- Optional -->
+			<range>
+		</ranges>
+	</crafter-versions-supported>
+
+	<crafter-edition>community</crafter-edition><!-- any, community, or enterprise -->
+</plugin>
