@@ -29,3 +29,9 @@ overlays
 # Configuration and Logging
 config/*
 logs/*
+
+.classpath
+.project
+.settings/*
+.vscode/*
+
